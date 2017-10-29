@@ -23,7 +23,12 @@ body {
 }
 
 a {
-	color:#382F2E;
+	color:#6bb846;
+	text-decoration: underline;
+}
+
+a.linkFooter {
+	text-decoration: none;
 }
 
 p, h1,h2,ul,ol,li,div{
@@ -143,9 +148,6 @@ a.link1{
 	color:#27A1E5;
 	line-height: 24px;
 	text-decoration:none;
-}
-a{
-	text-decoration: underline;
 }
 
 .link2{
@@ -300,3 +302,6 @@ li {
 	word-wrap:break-word
 }
 
+#footer_table {
+	background: #034ea2;
+}
